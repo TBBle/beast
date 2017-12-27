@@ -28,6 +28,7 @@ if (MSVC)
         #/wd4503      # decorated name length exceeded, name was truncated
         /W4           # enable all warnings
         /MP           # Multi-processor compilation
+        /source-charset:ISO-8859-1 # base64.hpp is in ISO-8859-1 encoding
         )
 
     set (Boost_USE_STATIC_LIBS ON)
