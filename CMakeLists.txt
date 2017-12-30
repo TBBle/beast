@@ -79,10 +79,7 @@ include_directories (include)
 add_definitions (-DBOOST_ALL_STATIC_LINK=1)
 
 add_definitions (-DBOOST_ASIO_NO_DEPRECATED=1)
-add_definitions (-DBOOST_ASIO_DISABLE_BOOST_ARRAY=1)
-add_definitions (-DBOOST_ASIO_DISABLE_BOOST_BIND=1)
-add_definitions (-DBOOST_ASIO_DISABLE_BOOST_DATE_TIME=1)
-add_definitions (-DBOOST_ASIO_DISABLE_BOOST_REGEX=1)
+add_definitions (-DBOOST_ASIO_STANDALONE=1)
 add_definitions (-DBOOST_COROUTINES_NO_DEPRECATION_WARNING=1)
 
 OPTION(FIND_BOOST "Build beast against an existing Boost install, rather than in-tree")
