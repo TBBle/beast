@@ -26,4 +26,6 @@ add_executable (tests-doc
     exemplars.cpp
 )
 
+add_test (NAME tests-doc COMMAND tests-doc)
+
 set_property(TARGET tests-doc PROPERTY FOLDER "tests")

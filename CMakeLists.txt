@@ -204,5 +204,6 @@ if (Beast_BUILD_EXAMPLES AND
 endif()
 
 if (Beast_BUILD_TESTS)
+    enable_testing()
     add_subdirectory (test)
 endif()

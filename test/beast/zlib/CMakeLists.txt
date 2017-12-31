@@ -29,4 +29,6 @@ add_executable (tests-beast-zlib
     zlib.cpp
 )
 
+add_test (NAME tests-beast-zlib COMMAND tests-beast-zlib)
+
 set_property(TARGET tests-beast-zlib PROPERTY FOLDER "tests")

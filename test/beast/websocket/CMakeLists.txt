@@ -36,4 +36,6 @@ add_executable (tests-beast-websocket
     write.cpp
 )
 
+add_test (NAME tests-beast-websocket COMMAND tests-beast-websocket)
+
 set_property(TARGET tests-beast-websocket PROPERTY FOLDER "tests")
